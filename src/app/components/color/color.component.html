@@ -1,1 +1,7 @@
-<p>color works!</p>
+<br>
+<ul class="list-group">
+  <li class="list-group-item active" aria-current="true">Colors</li>
+</ul>
+<ul class="list-group-item" *ngFor="let color of colors">
+  <td>{{color.colorName}}</td>
+</ul>
