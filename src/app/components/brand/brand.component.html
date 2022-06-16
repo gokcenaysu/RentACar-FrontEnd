@@ -1,8 +1,10 @@
 <ul class="list-group">
   <li [class]="getAllBrandClass()"
   routerLink="/cars"
+  style="background-color: rgb(81, 206, 234); font-family: sans-serif; font-weight: bolder;"
   class="list-group-item active" aria-current="true">BRANDS</li>
   <li (click)="setCurrentBrand(brand)"
+  style="font-family: serif ;background-color: rgb(226, 237, 250)"
   routerLink = "/cars/brand/{{brand.brandId}}"
   *ngFor="let brand of brands"
   [class]="getCurrentBrandClass(brand)">

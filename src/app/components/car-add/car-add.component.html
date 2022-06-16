@@ -1,12 +1,15 @@
+<br>
 <div class="content">
   <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <h5 class="title">Add Car</h5></div>
+    <div style="background-color: rgb(249, 232, 249);" class="card">
+      <div
+      style="background-color: rgb(250, 133, 209); font-family: serif; font-weight: bolder;"
+      class="card-header">
+        <h5 style="color:white;" class="title">Add Car</h5></div>
         <div class="card-body">
           <form [formGroup]="carAddForm">
 
-            <div class="mb-3">
+            <div style="font-family: serif;" class="mb-3">
               <label for="carName">Car Name</label>
               <div class="form-group">
                 <input type="text"
@@ -17,7 +20,7 @@
               </div>
             </div>
 
-            <div class="mb-3">
+            <div style="font-family: serif;" class="mb-3">
               <label for="brandId">Brand</label>
               <div class="form-group">
                 <input type="number"
@@ -28,7 +31,7 @@
               </div>
             </div>
 
-            <div class="mb-3">
+            <div style="font-family: serif;" class="mb-3">
               <label for="colorId">Color</label>
               <div class="form-group">
                 <input type="number"
@@ -38,7 +41,7 @@
                 placeholder="Color"/>
             </div>
           </div>
-            <div class="mb-3">
+            <div style="font-family: serif;" class="mb-3">
               <label for="modelYear">Model Year</label>
               <div class="form-group">
                 <input type="text"
@@ -49,7 +52,7 @@
               </div>
             </div>
 
-            <div class="mb-3">
+            <div style="font-family: serif;" class="mb-3">
               <label for="dailyPrice">Daily Price</label>
               <div class="form-group">
                 <input type="number"
@@ -60,7 +63,7 @@
               </div>
             </div>
 
-            <div class="mb-3">
+            <div style="font-family: serif;" class="mb-3">
               <label for="description">Description</label>
               <div class="form-group">
                 <input type="text"
@@ -75,6 +78,7 @@
         </div>
         <div class="card-footer">
           <button
+          style="font-family: serif; background-color: rgb(81, 206, 234);"
             class="btn btn-fill btn-warning"
             (click)="add()">
             Add
